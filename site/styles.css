@@ -96,15 +96,21 @@ body{
   .services-grid{grid-template-columns:1fr}
 }
 @media (max-width:768px){
-  .header-inner{gap:12px}
-  .main-nav{order:3;width:100%;justify-content:center}
+  .header-inner{gap:12px;padding:8px 0}
+  .main-nav{order:3;width:100%;justify-content:center;margin-top:8px}
   .hero-visual{max-width:100%}
   .pricing-grid{grid-template-columns:1fr}
   .contact-layout{gap:30px}
   .content-section{padding:40px 0}
+  /* Footer responsive: stack footer elements vertically on tablet/mobile */
+  .footer-inner{flex-direction:column;gap:14px;text-align:center}
+  .footer-text{order:2}
+  .social-links{order:3}
 }
 @media (max-width:480px){
+  body{padding-top:130px} /* More room for taller mobile header */
   .brand-name{font-size:22px}
+  .brand-tag{font-size:10px}
   .crest{width:44px;height:44px}
   .crest-img{width:44px;height:44px}
   .hero-title{font-size:40px}
@@ -112,6 +118,11 @@ body{
   .features-list li{padding:16px 12px 16px 50px}
   .contact-form-wrapper{padding:24px}
   .page-hero{padding:40px 0 30px}
+  /* Additional mobile header adjustments */
+  .site-header{padding:10px 0}
+  .brand{gap:8px}
+  .nav-link,.btn{font-size:14px;padding:6px 10px}
+  .auth{width:100%;justify-content:center}
 }
 
 /* Accessibility: ensure images don't overflow small screens */
