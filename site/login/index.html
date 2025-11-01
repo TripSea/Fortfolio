@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Sign Up — Fortfolio</title>
+    <title>Log In — Fortfolio</title>
   <link rel="icon" type="image/png" href="/site/assets/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,43 +38,34 @@
     <main>
       <section class="page-hero">
         <div class="container">
-          <h1 class="page-title">Create Your Account</h1>
-          <p class="page-subtitle">Join our community and start building your wealth today</p>
+          <h1 class="page-title">Welcome Back</h1>
+          <p class="page-subtitle">Log in to access your dashboard</p>
         </div>
       </section>
 
       <section class="content-section">
         <div class="container">
           <div class="contact-form-wrapper">
-            <h2>Sign Up</h2>
+            <h2>Log In</h2>
             <form class="contact-form" action="#" method="post" autocomplete="on">
               <div class="form-group">
-                <label for="su_name">Full Name</label>
-                <input id="su_name" name="name" type="text" required placeholder="Jane Trader" />
+                <label for="li_email">Email Address</label>
+                <input id="li_email" name="email" type="email" required placeholder="you@example.com" />
               </div>
 
               <div class="form-group">
-                <label for="su_email">Email Address</label>
-                <input id="su_email" name="email" type="email" required placeholder="you@example.com" />
+                <label for="li_password">Password</label>
+                <input id="li_password" name="password" type="password" required minlength="8" placeholder="••••••••" />
               </div>
 
-              <div class="form-group">
-                <label for="su_password">Password</label>
-                <input id="su_password" name="password" type="password" required minlength="8" placeholder="••••••••" />
+              <div class="form-group" style="display:flex;justify-content:space-between;align-items:center;gap:1rem;">
+                <label><input type="checkbox" /> Remember me</label>
+                <a href="#" class="inline-link">Forgot password?</a>
               </div>
 
-              <div class="form-group">
-                <label for="su_password2">Confirm Password</label>
-                <input id="su_password2" name="password_confirm" type="password" required minlength="8" placeholder="••••••••" />
-              </div>
-
-              <div class="form-group">
-                <label><input type="checkbox" required /> I agree to the Terms and Privacy Policy</label>
-              </div>
-
-              <button type="submit" class="btn btn-cta">Create Account</button>
+              <button type="submit" class="btn btn-cta">Log In</button>
             </form>
-            <p class="cta-text">Already have an account? <a href="/site/login/" class="inline-link">Log in</a>.</p>
+            <p class="cta-text">New to Fortfolio? <a href="/site/signup/" class="inline-link">Create an account</a>.</p>
           </div>
         </div>
       </section>
@@ -97,7 +88,7 @@
             <svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm10 2H7a3 3 0 00-3 3v10a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3zm-5 3a5 5 0 110 10 5 5 0 010-10zm0 2.2a2.8 2.8 0 100 5.6 2.8 2.8 0 000-5.6zM18 6.5a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"/></svg>
           </a>
           <a class="social-link" href="https://tiktok.com/@fortfolioff" target="_blank" rel="noreferrer noopener" aria-label="Fortfolio on TikTok">
-            <svg viewBox="0 0 24 24"><path d="M16 2c1.1 1.8 2.7 3.2 4.7 3.7v3.2c-1.9-.1-3.6-.7-4.7-1.5v7.2c0 3.6-2.9 6.5-6.5 6.5S3 18.2 3 14.6 5.9 8.1 9.5 8.1c.5 0 1 .1 1.5.2v3.2c-.5-.2-1-.3-1.5-.3-1.8 0-3.2 1.5-3.2 3.4s1.4 3.4 3.2 3.4 3.2-1.5 3.2-3.4V2h3.3z"/></svg>
+            <svg viewBox="0 0 24 24"><path d="M16 2c1.1 1.8 2.7 3.2 4.7 3.7v3.2c-1.9-.1-3.6-.7-4.7-1.5v7.2c0 3.6-2.9 6.5-6.5 6.5S3 18.2 3 14.6 5.9 8.1 9.5 8.1c.5 0 1 .1 1.5 .2v3.2c-.5-.2-1-.3-1.5-.3-1.8 0-3.2 1.5-3.2 3.4s1.4 3.4 3.2 3.4 3.2-1.5 3.2-3.4V2h3.3z"/></svg>
           </a>
         </div>
       </div>
