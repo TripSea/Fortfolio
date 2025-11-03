@@ -43,16 +43,16 @@ body{
 .btn-ghost{background:transparent;color:var(--muted);border:1px solid rgba(255,255,255,0.02)}
 
 /* Hero */
-/* Reduce excessive gap below hero by lowering min-height and bottom padding */
-.hero{padding:40px 0 24px;background:linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 100%);border-bottom:1px solid rgba(255,255,255,0.03);min-height:clamp(420px, 55vh, 640px)}
-.hero-inner{display:flex;flex-direction:column;gap:28px;align-items:center;padding:24px 0;max-width:100%}
+/* Tighten further: reduce overall min-height and bottom padding to close gap */
+.hero{padding:24px 0 0;background:linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 100%);border-bottom:1px solid rgba(255,255,255,0.03);min-height:clamp(300px, 42vh, 520px)}
+.hero-inner{display:flex;flex-direction:column;gap:16px;align-items:center;padding:12px 0;max-width:100%}
 .hero-title{font-family:'Cinzel',serif;font-size:clamp(40px, 8vw, 82px);margin:0;color:var(--gold);letter-spacing:1px}
 .hero-sub{margin-top:8px;font-size:clamp(16px, 2vw, 18px);color:var(--muted);text-align:center;max-width:90%}
-.hero-right{display:flex;flex-direction:column;gap:28px;width:100%;max-width:1100px;align-items:center}
+.hero-right{display:flex;flex-direction:column;gap:16px;width:100%;max-width:1100px;align-items:center}
 .hero-content{display:flex;flex-direction:column;justify-content:center;gap:8px;padding:8px 0;text-align:center;width:100%}
 .hero-visual{display:block;border-radius:16px;overflow:hidden;box-shadow:0 24px 80px rgba(0,0,0,0.7);width:100%;max-width:850px;margin:0 auto}
 .hero-img{width:100%;height:auto;object-fit:cover;display:block}
-.hero-tagline{font-size:clamp(18px, 3vw, 28px);color:var(--gold);text-align:center;margin-top:20px;font-weight:600;letter-spacing:0.5px}
+.hero-tagline{font-size:clamp(18px, 3vw, 28px);color:var(--gold);text-align:center;margin-top:8px;margin-bottom:0;font-weight:600;letter-spacing:0.5px}
 .hero-features{width:100%}
 .features-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:16px;width:100%;max-width:100%}
 .features-list li{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px 14px 18px 60px;border-radius:6px;color:#e6e6e6;position:relative;min-height:80px}
@@ -81,6 +81,10 @@ body{
 .footer-inner{display:flex;flex-direction:column;gap:16px;align-items:center}
 .footer-brand{font-family:'Cinzel',serif;color:var(--gold);font-size:20px}
 .footer-text{color:var(--muted);margin-top:4px}
+.footer-disclaimer{background:#000000;border:1px solid rgba(255,255,255,0.08);border-radius:8px;padding:24px;margin:20px 0;max-width:1180px;width:94%}
+.footer-disclaimer p{color:#aaa;font-size:12pt;line-height:1.7;margin:0 0 12px;text-align:left}
+.footer-disclaimer p:last-child{margin-bottom:0}
+.footer-disclaimer strong{color:var(--gold);font-weight:600}
 .footer-links{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;margin:12px 0}
 .footer-link{color:var(--muted);text-decoration:none;font-size:14px;transition:color .2s ease}
 .footer-link:hover{color:var(--gold)}
@@ -169,10 +173,12 @@ body{
 .inline-link:hover{color:var(--gold-deep)}
 
 /* Services grid */
+.services{padding-top:20px}
 .services-grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));gap:30px;margin-bottom:60px}
-.service-card{background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));padding:30px;border-radius:10px;position:relative;border:1px solid rgba(255,255,255,0.05)}
-.service-icon{width:50px;height:50px;margin-bottom:16px;filter:drop-shadow(0 4px 8px rgba(0,0,0,0.4))}
-.service-card h3{color:var(--gold);font-family:'Cinzel',serif;font-size:clamp(18px, 2.5vw, 22px);margin:0 0 12px}
+.service-card{background:#000000;padding:30px;border-radius:10px;position:relative;border:1px solid rgba(255,255,255,0.08)}
+.service-icon{display:none}
+.service-card h3{color:var(--gold);font-family:'Cinzel',serif;font-size:clamp(18px, 2.5vw, 22px);margin:0 0 12px;padding-left:42px;position:relative}
+.service-card h3:before{content:'';position:absolute;left:0;top:-4px;width:32px;height:32px;background:url('/site/assets/Gold flag.png') no-repeat center;background-size:contain;filter:drop-shadow(0 2px 4px rgba(0,0,0,0.4))}
 .service-card p{color:var(--muted);line-height:1.6;margin-bottom:16px}
 .service-features{list-style:none;padding:0;margin:16px 0 0;border-top:1px solid rgba(255,255,255,0.08);padding-top:16px}
 .service-features li{padding:8px 0;color:#bbb;font-size:clamp(13px, 1.8vw, 15px);position:relative;padding-left:20px}
@@ -215,4 +221,31 @@ body{
 .examples-full-section{padding:50px 0}
 .example-full{width:min(1180px,94%);margin:40px auto;scroll-margin-top:90px}
 .example-full-img{width:100%;height:auto;display:block;border-radius:12px;border:1px solid rgba(255,255,255,0.06);box-shadow:0 18px 50px rgba(0,0,0,0.6)}
+
+/* Testimonials section */
+.testimonials{padding:60px 0;background:linear-gradient(180deg, rgba(212,175,55,0.03), rgba(0,0,0,0.02));border-top:1px solid rgba(255,255,255,0.03)}
+.testimonials-grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));gap:30px;margin-top:40px}
+.testimonial-card{background:#000000;padding:30px;border-radius:12px;border:1px solid rgba(255,255,255,0.08);position:relative}
+.testimonial-quote{color:var(--muted);line-height:1.7;font-size:clamp(14px, 1.8vw, 16px);margin-bottom:20px;font-style:italic}
+.testimonial-author{display:flex;align-items:center;gap:12px;margin-top:20px;padding-top:20px;border-top:1px solid rgba(255,255,255,0.08)}
+.testimonial-avatar{width:48px;height:48px;border-radius:50%;background:linear-gradient(135deg, var(--gold), var(--gold-deep));display:flex;align-items:center;justify-content:center;color:#111;font-weight:700;font-size:18px}
+.testimonial-info{flex:1}
+.testimonial-name{color:var(--gold);font-weight:600;font-size:clamp(14px, 1.8vw, 16px);margin-bottom:2px}
+.testimonial-role{color:#999;font-size:clamp(12px, 1.5vw, 14px)}
+
+/* Content teasers (blog/calendar) */
+.content-teasers{padding:60px 0}
+.teasers-grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(420px, 1fr));gap:40px}
+.teaser-card{background:#000000;padding:40px;border-radius:12px;border:1px solid rgba(255,255,255,0.08);text-align:center}
+.teaser-icon{display:none}
+.teaser-card h3{color:var(--gold);font-family:'Cinzel',serif;font-size:clamp(22px, 3vw, 28px);margin:0 0 16px;position:relative;padding-top:48px}
+.teaser-card h3:before{content:'';position:absolute;left:50%;top:0;transform:translateX(-50%);width:40px;height:40px;background:url('/site/assets/Gold flag.png') no-repeat center;background-size:contain;filter:drop-shadow(0 4px 8px rgba(0,0,0,0.4))}
+.teaser-card p{color:var(--muted);line-height:1.7;margin-bottom:24px;font-size:clamp(14px, 1.8vw, 16px)}
+.teaser-cta{display:inline-block;padding:12px 24px;background:transparent;border:2px solid var(--gold);color:var(--gold);text-decoration:none;border-radius:8px;font-weight:600;font-size:clamp(14px, 1.8vw, 16px);transition:all .2s ease}
+.teaser-cta:hover{background:var(--gold);color:#111}
+
+@media (max-width:768px){
+  .testimonials-grid{grid-template-columns:1fr}
+  .teasers-grid{grid-template-columns:1fr}
+}
 
