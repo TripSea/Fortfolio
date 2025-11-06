@@ -1,5 +1,5 @@
 ---
-title: "The Iron Condor: A Complete Guide to Range-Bound Profits"
+title: "The Iron Condor"
 subtitle: "Master this popular options strategy with our step-by-step walkthrough"
 date: 2025-12-10
 read_time: "15 min read"

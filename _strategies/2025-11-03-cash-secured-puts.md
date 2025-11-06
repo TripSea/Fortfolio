@@ -1,5 +1,5 @@
 ---
-title: "Cash Secured Puts: The Ultimate Guide to Passive Income"
+title: "Cash Secured Puts"
 subtitle: "Get paid to buy stocks at your desired price while generating consistent premiums"
 date: 2025-11-03
 read_time: "14 min read"

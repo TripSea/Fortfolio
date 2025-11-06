@@ -1,5 +1,5 @@
 ---
-title: "The Investor's Ultimate Guide to Passive Income with Covered Calls"
+title: "Covered Calls"
 subtitle: "Generate consistent income from your stock portfolio while maintaining ownership"
 date: 2025-11-02
 read_time: "15 min read"

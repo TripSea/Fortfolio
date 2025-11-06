@@ -1,5 +1,5 @@
 ---
-title: "Beginner's Guide to Understanding the Stock Market"
+title: "Understanding the Stock Market"
 subtitle: "Everything you need to know to start your investing journey"
 date: 2025-11-01
 read_time: "12 min read"
