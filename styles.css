@@ -117,8 +117,9 @@ body{
 .blog-category-card{background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));border:1px solid rgba(255,255,255,0.08);border-radius:12px;padding:32px 28px;position:relative;transition:all .3s ease;display:block;text-decoration:none;color:inherit}
 .blog-category-card:hover{transform:translateY(-4px);border-color:rgba(212,175,55,0.3);box-shadow:0 12px 24px rgba(0,0,0,0.4)}
 .category-badge{position:absolute;top:16px;right:16px;background:var(--gold);color:#111;font-size:11px;font-weight:700;padding:6px 12px;border-radius:20px;text-transform:uppercase;letter-spacing:0.5px}
-.category-icon{width:56px;height:56px;background:linear-gradient(135deg, rgba(212,175,55,0.15), rgba(212,175,55,0.05));border-radius:12px;display:flex;align-items:center;justify-content:center;margin-bottom:20px}
-.category-icon svg{width:32px;height:32px;color:var(--gold);stroke-width:2}
+.category-icon{width:56px;height:56px;background:linear-gradient(135deg, rgba(212,175,55,0.15), rgba(212,175,55,0.05));border-radius:12px;display:flex;align-items:center;justify-content:center;margin-bottom:20px;overflow:hidden}
+/* Ensure uniform rendering and avoid squish on narrow path icons */
+.category-icon svg{width:34px;height:34px;stroke:var(--gold);stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
 .category-title{font-family:'Cinzel',serif;color:var(--gold);font-size:clamp(20px, 3vw, 24px);margin:0 0 12px 0}
 .category-description{color:var(--muted);line-height:1.7;margin-bottom:20px;font-size:clamp(14px, 1.8vw, 15px)}
 .category-features{list-style:none;padding:0;margin:0}
