@@ -22,7 +22,7 @@ body{
 
 /* Header */
 .site-header{background:rgba(0,0,0,0.6);backdrop-filter:saturate(140%) blur(6px);padding:16px 0;position:fixed;top:0;left:0;right:0;z-index:50;border-bottom:1px solid rgba(255,255,255,0.06)}
-.header-inner{display:flex;align-items:center;gap:clamp(10px, 2vw, 20px);justify-content:space-between;flex-wrap:wrap}
+.header-inner{display:flex;align-items:center;gap:clamp(10px, 2vw, 20px);justify-content:center;flex-wrap:wrap}
 .brand{display:flex;align-items:center;gap:12px}
 .crest{width:56px;height:56px;background:linear-gradient(180deg,var(--gold) 0%, var(--gold-deep) 100%);border-radius:10px;display:flex;align-items:center;justify-content:center;position:relative}
 .crest-shield{position:absolute;width:26px;height:26px;background:#fff;opacity:.08;border-radius:4px;transform:translateY(2px)}
