@@ -22,8 +22,8 @@ body{
 
 /* Header */
 .site-header{background:rgba(0,0,0,0.6);backdrop-filter:saturate(140%) blur(6px);padding:16px 0;position:fixed;top:0;left:0;right:0;z-index:50;border-bottom:1px solid rgba(255,255,255,0.06)}
-.header-inner{display:flex;align-items:center;gap:clamp(10px, 2vw, 20px);justify-content:center;flex-wrap:wrap}
-.brand{display:flex;align-items:center;gap:12px;position:absolute;left:clamp(12px, 3%, 30px)}
+.header-inner{display:flex;align-items:center;gap:clamp(10px, 2vw, 20px);justify-content:center;flex-wrap:wrap;position:relative}
+.brand{display:flex;align-items:center;gap:12px;position:absolute;left:clamp(12px, 3%, 30px);z-index:10}
 .crest{width:56px;height:56px;background:linear-gradient(180deg,var(--gold) 0%, var(--gold-deep) 100%);border-radius:10px;display:flex;align-items:center;justify-content:center;position:relative}
 .crest-shield{position:absolute;width:26px;height:26px;background:#fff;opacity:.08;border-radius:4px;transform:translateY(2px)}
 .crest-tower{position:absolute;left:8px;top:6px;width:6px;height:22px;background:#fff;opacity:.08;border-radius:2px}
@@ -248,7 +248,7 @@ body{
 .service-card{background:#000000;padding:30px;border-radius:10px;position:relative;border:1px solid rgba(255,255,255,0.08)}
 .service-icon{display:none}
 .service-card h3{color:var(--gold);font-family:'Cinzel',serif;font-size:clamp(18px, 2.5vw, 22px);margin:0 0 12px;padding-left:42px;position:relative}
-.service-card h3:before{content:'';position:absolute;left:0;top:-4px;width:32px;height:32px;background:url('/site/assets/Gold flag.png') no-repeat center;background-size:contain;filter:drop-shadow(0 2px 4px rgba(0,0,0,0.4))}
+.service-card h3:before{content:'';position:absolute;left:0;top:-4px;width:32px;height:32px;background:url('/assets/Gold flag.png') no-repeat center;background-size:contain;filter:drop-shadow(0 2px 4px rgba(0,0,0,0.4))}
 .service-card p{color:var(--muted);line-height:1.6;margin-bottom:16px}
 .service-features{list-style:none;padding:0;margin:16px 0 0;border-top:1px solid rgba(255,255,255,0.08);padding-top:16px}
 .service-features li{padding:8px 0;color:#bbb;font-size:clamp(13px, 1.8vw, 15px);position:relative;padding-left:20px}
@@ -309,14 +309,156 @@ body{
 .teaser-card{background:#000000;padding:40px;border-radius:12px;border:1px solid rgba(255,255,255,0.08);text-align:center}
 .teaser-icon{display:none}
 .teaser-card h3{color:var(--gold);font-family:'Cinzel',serif;font-size:clamp(22px, 3vw, 28px);margin:0 0 16px;position:relative;padding-top:48px}
-.teaser-card h3:before{content:'';position:absolute;left:50%;top:0;transform:translateX(-50%);width:40px;height:40px;background:url('/site/assets/Gold flag.png') no-repeat center;background-size:contain;filter:drop-shadow(0 4px 8px rgba(0,0,0,0.4))}
+.teaser-card h3:before{content:'';position:absolute;left:50%;top:0;transform:translateX(-50%);width:40px;height:40px;background:url('/assets/Gold flag.png') no-repeat center;background-size:contain;filter:drop-shadow(0 4px 8px rgba(0,0,0,0.4))}
 .teaser-card p{color:var(--muted);line-height:1.7;margin-bottom:24px;font-size:clamp(14px, 1.8vw, 16px)}
 .teaser-cta{display:inline-block;padding:12px 24px;background:transparent;border:2px solid var(--gold);color:var(--gold);text-decoration:none;border-radius:8px;font-weight:600;font-size:clamp(14px, 1.8vw, 16px);transition:all .2s ease}
 .teaser-cta:hover{background:var(--gold);color:#111}
 
+/* Comprehensive Mobile Responsiveness */
 @media (max-width:768px){
-  .testimonials-grid{grid-template-columns:1fr}
-  .teasers-grid{grid-template-columns:1fr}
+  /* Header adjustments */
+  body{padding-top:110px}
+  .header-inner{
+    justify-content:center;
+    padding-left:0;
+  }
+  .brand{
+    display:none !important;
+  }
+  .brand-text{
+    display:none;
+  }
+  .main-nav{
+    width:100%;
+    justify-content:center;
+    margin-top:8px;
+  }
+  .auth{
+    width:100%;
+    justify-content:center;
+  }
+  
+  /* Services grid */
+  .services-grid{
+    grid-template-columns:1fr;
+    gap:24px;
+  }
+  
+  /* Content grid */
+  .content-grid{
+    grid-template-columns:1fr;
+    gap:30px;
+  }
+  
+  /* Contact layout */
+  .contact-layout{
+    grid-template-columns:1fr;
+    gap:30px;
+  }
+  
+  /* Forms */
+  .contact-form-wrapper{
+    padding:24px;
+  }
+  
+  /* Pricing grid */
+  .pricing-grid{
+    grid-template-columns:1fr;
+  }
+  
+  /* Blog grid */
+  .blog-grid{
+    grid-template-columns:1fr;
+    gap:24px;
+  }
+  
+  /* Testimonials */
+  .testimonials-grid{
+    grid-template-columns:1fr;
+  }
+  
+  /* Content teasers */
+  .teasers-grid{
+    grid-template-columns:1fr;
+    gap:24px;
+  }
+  
+  /* Tables - enable horizontal scroll */
+  .blog-post-content table{
+    display:block;
+    overflow-x:auto;
+    white-space:nowrap;
+  }
+  
+  /* Blockquotes */
+  .blog-post-content blockquote{
+    padding:1rem 1.25rem;
+    margin:1.5rem 0;
+  }
+  
+  /* Code blocks */
+  .blog-post-content pre{
+    padding:1rem;
+    font-size:13px;
+  }
+  
+  /* Page hero */
+  .page-hero{
+    padding:30px 0;
+  }
+  
+  /* Hero features list */
+  .features-list{
+    grid-template-columns:1fr;
+    gap:12px;
+  }
+  
+  /* Footer */
+  .footer-links{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+  }
+  
+  /* Reduce padding on mobile */
+  .content-section{
+    padding:40px 0;
+  }
+  .services,.testimonials,.content-teasers{
+    padding:40px 0;
+  }
+  .examples-full-section{
+    padding:30px 0;
+  }
+}
+
+/* Small mobile devices */
+@media (max-width:480px){
+  .container{
+    width:96%;
+  }
+  
+  .nav-link{
+    font-size:13px;
+    padding:5px 10px;
+  }
+  
+  .btn{
+    font-size:13px;
+    padding:6px 12px;
+  }
+  
+  .blog-post-content{
+    padding:0 1rem;
+  }
+  
+  .contact-form-wrapper{
+    padding:20px;
+  }
+  
+  .service-card,.teaser-card{
+    padding:24px;
+  }
 }
 
 /* Blog Post Content Styling (for Jekyll markdown posts) */
