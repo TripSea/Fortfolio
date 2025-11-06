@@ -76,23 +76,21 @@
     <!-- Cookie Consent Banner -->
     <div id="cookie-banner" class="cookie-banner" style="display:none;">
       <div class="cookie-content">
-        <p class="cookie-text">We value your privacy. This site does not use cookies for tracking. We only use essential functionality to ensure the best experience.</p>
+        <p class="cookie-text">We value your privacy. This site does not use cookies for tracking or analytics. We only use essential browser storage to remember your preferences.</p>
         <div class="cookie-buttons">
-          <button id="cookie-accept" class="cookie-btn cookie-accept">Accept</button>
-          <button id="cookie-deny" class="cookie-btn cookie-deny">Decline</button>
+          <button id="cookie-acknowledge" class="cookie-btn cookie-accept">Acknowledge</button>
         </div>
       </div>
     </div>
 
     <script>
-      // Cookie consent banner logic
+      // Privacy notice banner logic
       (function() {
         const banner = document.getElementById('cookie-banner');
-        const acceptBtn = document.getElementById('cookie-accept');
-        const denyBtn = document.getElementById('cookie-deny');
-        const consentKey = 'fortfolio_cookie_consent';
+        const acknowledgeBtn = document.getElementById('cookie-acknowledge');
+        const consentKey = 'fortfolio_privacy_acknowledged';
 
-        // Check if user has already made a choice
+        // Check if user has already acknowledged
         if (!localStorage.getItem(consentKey)) {
           // Show banner after short delay for better UX
           setTimeout(() => {
@@ -100,13 +98,8 @@
           }, 1000);
         }
 
-        acceptBtn.addEventListener('click', () => {
-          localStorage.setItem(consentKey, 'accepted');
-          banner.style.display = 'none';
-        });
-
-        denyBtn.addEventListener('click', () => {
-          localStorage.setItem(consentKey, 'denied');
+        acknowledgeBtn.addEventListener('click', () => {
+          localStorage.setItem(consentKey, 'acknowledged');
           banner.style.display = 'none';
         });
       })();
