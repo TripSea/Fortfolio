@@ -72,5 +72,44 @@
       </div>
       <div class="container footer-bottom">© 2025 Fortfolio. All rights reserved.</div>
     </footer>
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-banner" class="cookie-banner" style="display:none;">
+      <div class="cookie-content">
+        <p class="cookie-text">We value your privacy. This site does not use cookies for tracking. We only use essential functionality to ensure the best experience.</p>
+        <div class="cookie-buttons">
+          <button id="cookie-accept" class="cookie-btn cookie-accept">Accept</button>
+          <button id="cookie-deny" class="cookie-btn cookie-deny">Decline</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Cookie consent banner logic
+      (function() {
+        const banner = document.getElementById('cookie-banner');
+        const acceptBtn = document.getElementById('cookie-accept');
+        const denyBtn = document.getElementById('cookie-deny');
+        const consentKey = 'fortfolio_cookie_consent';
+
+        // Check if user has already made a choice
+        if (!localStorage.getItem(consentKey)) {
+          // Show banner after short delay for better UX
+          setTimeout(() => {
+            banner.style.display = 'block';
+          }, 1000);
+        }
+
+        acceptBtn.addEventListener('click', () => {
+          localStorage.setItem(consentKey, 'accepted');
+          banner.style.display = 'none';
+        });
+
+        denyBtn.addEventListener('click', () => {
+          localStorage.setItem(consentKey, 'denied');
+          banner.style.display = 'none';
+        });
+      })();
+    </script>
   </body>
 </html>
