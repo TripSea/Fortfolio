@@ -1,0 +1,57 @@
+---
+layout: default
+title: Educational Resources
+---
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="/blog/" class="breadcrumb-link">Blog</a> / Educational Resources</div>
+    <h1 class="page-title">Educational Resources</h1>
+    <p class="page-subtitle">Learn the fundamentals of trading, technical analysis, and platform tools</p>
+  </div>
+</section>
+
+<!-- Blog Posts Grid -->
+<section class="blog-posts-section">
+  <div class="container">
+    <div class="blog-posts-grid">
+      {% for post in site.education %}
+      <article class="blog-post-card">
+        <a href="{{ post.url }}" style="text-decoration:none;color:inherit;display:block;">
+          <div class="post-date">{{ post.date | date: "%B %Y" }}</div>
+          <h3 class="post-title">{{ post.title }}</h3>
+          <p class="post-excerpt">{{ post.subtitle | default: post.excerpt | strip_html | truncate: 160 }}</p>
+          <div class="post-meta">
+            <span class="post-category">{{ post.category }}</span>
+            {% if post.read_time %}
+            <span class="post-read-time">{{ post.read_time }}</span>
+            {% endif %}
+          </div>
+        </a>
+      </article>
+      {% endfor %}
+      
+      {% if site.education.size == 0 %}
+      <p style="color:var(--muted);text-align:center;grid-column:1/-1;">No posts yet. Check back soon!</p>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<!-- Back to Categories -->
+<section class="content-section">
+  <div class="container" style="text-align:center;">
+    <a href="/blog/" class="cta-button" style="display:inline-block;">← Back to All Categories</a>
+  </div>
+</section>
+
+<!-- Discord CTA -->
+<section class="content-section">
+  <div class="container">
+    <div class="cta-section">
+      <h2>Join our Discord community</h2>
+      <p>Get real-time market insights, strategies, and support.</p>
+      <a href="https://discord.gg/A7pZVkfmaa" target="_blank" rel="noopener noreferrer" class="cta-button">Join Now</a>
+    </div>
+  </div>
+</section>

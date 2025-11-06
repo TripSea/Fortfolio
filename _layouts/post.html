@@ -1,0 +1,57 @@
+---
+layout: default
+---
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="/blog/" class="breadcrumb-link">Blog</a> / 
+      <a href="/blog/{{ page.collection | replace: '_', '-' }}/" class="breadcrumb-link">{{ page.category }}</a> / 
+      {{ page.title }}
+    </div>
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+    <p class="page-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+    <div class="post-meta" style="justify-content:center;margin-top:1.5rem;">
+      <span class="post-date">{{ page.date | date: "%B %d, %Y" }}</span>
+      <span class="post-category">{{ page.category }}</span>
+      {% if page.read_time %}
+      <span class="post-read-time">{{ page.read_time }}</span>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+<section class="content-section">
+  <div class="container">
+    <article class="blog-post-content">
+      {{ content }}
+    </article>
+    
+    <!-- Disclaimer -->
+    <div style="margin-top:3rem;padding:1.5rem;background:rgba(212,175,55,0.05);border-left:4px solid var(--gold);border-radius:0 8px 8px 0;">
+      <p style="margin:0;color:var(--muted);font-size:14px;line-height:1.6;">
+        <strong style="color:var(--gold);">Disclaimer:</strong> This content is for informational purposes only and does not constitute personalized financial advice. Consult a qualified professional before making investment decisions.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Back to Category -->
+<section class="content-section">
+  <div class="container" style="text-align:center;">
+    <a href="/blog/{{ page.collection | replace: '_', '-' }}/" class="cta-button" style="display:inline-block;">← Back to {{ page.category }}</a>
+  </div>
+</section>
+
+<!-- Discord CTA -->
+<section class="content-section">
+  <div class="container">
+    <div class="cta-section">
+      <h2>Join our Discord community</h2>
+      <p>Get real-time market insights, strategies, and support.</p>
+      <a href="https://discord.gg/A7pZVkfmaa" target="_blank" rel="noopener noreferrer" class="cta-button">Join Now</a>
+    </div>
+  </div>
+</section>

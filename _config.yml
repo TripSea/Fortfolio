@@ -1,0 +1,95 @@
+# Jekyll configuration for Fortfolio blog section
+
+title: Fortfolio Blog
+description: Guard Your Capital, Grow Your Wealth
+url: "https://fortfolio.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+permalink: /blog/:categories/:title/
+future: true  # Show posts with future dates
+
+# Collections for blog categories
+collections:
+  market_analysis:
+    output: true
+    permalink: /blog/market-analysis/:title/
+  strategies:
+    output: true
+    permalink: /blog/strategies/:title/
+  education:
+    output: true
+    permalink: /blog/education/:title/
+  community:
+    output: true
+    permalink: /blog/community/:title/
+  updates:
+    output: true
+    permalink: /blog/updates/:title/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "market_analysis"
+    values:
+      layout: "post"
+      category: "Market Analysis"
+  - scope:
+      path: ""
+      type: "strategies"
+    values:
+      layout: "post"
+      category: "Strategy Guides"
+  - scope:
+      path: ""
+      type: "education"
+    values:
+      layout: "post"
+      category: "Educational Resources"
+  - scope:
+      path: ""
+      type: "community"
+    values:
+      layout: "post"
+      category: "Community Highlights"
+  - scope:
+      path: ""
+      type: "updates"
+    values:
+      layout: "post"
+      category: "Feature Updates"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .git/
+  - .github/
+
+# Include in processing (keep existing HTML files)
+include:
+  - _pages
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO
+author: Fortfolio
+twitter:
+  username: fortfolioff
+social:
+  name: Fortfolio
+  links:
+    - https://x.com/fortfolioff
+    - https://instagram.com/fortfolioff
+    - https://tiktok.com/@fortfolioff
