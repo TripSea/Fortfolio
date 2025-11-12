@@ -35,6 +35,9 @@ Based on Federal Reserve and U.S. Bureau of Economic Analysis data from similar 
 
 These projections draw from government-sourced historical trends.
 
+## Potential Impacts if the Bill is Not Passed
+A failure to pass H.R.5371 would prolong the current 43-day shutdown, exacerbating economic drag based on Congressional Budget Office (CBO) analyses of prior events like the 2018-2019 shutdown. That 35-day closure reduced real GDP by $11 billion total ($3 billion permanently lost), damping quarterly growth by 0.2-0.4% annualized, per CBO estimates. Prolonged uncertainty could similarly heighten volatility and reduce output through furloughs, delayed contracts, and secondary effects like reduced consumer spending, as noted in Federal Reserve reports. White House economists estimate ongoing weekly GDP drains of $15 billion. Historical market data shows mixed but often increased turbulence during shutdowns.
+
 ## Watch the Vote Live
 
 Tune in via the official U.S. House stream: [https://live.house.gov/](https://live.house.gov/).
