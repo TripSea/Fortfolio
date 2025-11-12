@@ -11,7 +11,7 @@ As a data-backed investment platform at Fortfolio, we prioritize informing our c
 
 ## Why This Bill Matters
 
-Passage of H.R.5371 restores government operations, mitigating economic drag from halted services and fiscal uncertainty. Historical data from prior shutdowns, such as the 2018-2019 event, shows resolutions correlate with GDP recovery signals per U.S. Bureau of Economic Analysis reports. For Fortfolio.io users, this supports our proprietary screening tools by enhancing data reliability in stable economic conditions. Legally, it reduces risks for investors tied to government contractors, aligning with compliance under the Investment Advisers Act of 1940—no direct liability for Fortfolio, but we advise monitoring SEC disruptions.
+Passage of H.R.5371 restores government operations, mitigating economic drag from halted services and fiscal uncertainty. Historical data from prior shutdowns, such as the 2018-2019 event, shows resolutions correlate with GDP recovery signals per U.S. Bureau of Economic Analysis reports. Legally, it reduces risks for investors tied to government contractors, aligning with compliance under the Investment Advisers Act of 1940, but we advise monitoring SEC disruptions.
 
 ## Potential Stock Market Impacts
 
@@ -33,7 +33,7 @@ Based on Federal Reserve and U.S. Bureau of Economic Analysis data from similar 
 - **Healthcare**: Neutral-positive, stabilizing subsidies per congressional records.
 - **Defense**: 1-3% gains from resumed military construction funding and contract payments, as evidenced by historical data where the sector lagged during the 2013 shutdown.
 
-These projections draw from government-sourced historical trends to guide Fortfolio.io strategies—update your screens accordingly to capitalize on recoveries while hedging fiscal risks.
+These projections draw from government-sourced historical trends.
 
 ## Watch the Vote Live
 
