@@ -31,6 +31,7 @@ Based on Federal Reserve and U.S. Bureau of Economic Analysis data from similar 
 - **Energy and Materials**: 1.5-4% rises, aligned with EIA supply chain data.
 - **Technology**: 0.5-1.5% uplift in subsectors like semiconductors.
 - **Healthcare**: Neutral-positive, stabilizing subsidies per congressional records.
+- **Defense**: 1-3% gains from resumed military construction funding and contract payments, as evidenced by historical data where the sector lagged during the 2013 shutdown.
 
 These projections draw from government-sourced historical trends to guide Fortfolio.io strategies—update your screens accordingly to capitalize on recoveries while hedging fiscal risks.
 
