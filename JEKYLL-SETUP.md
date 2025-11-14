@@ -185,4 +185,4 @@ tags: [education, beginner, fundamentals]
 ## Questions?
 
 Check Jekyll docs: https://jekyllrb.com/docs/
-Or ask in Discord: https://discord.gg/A7pZVkfmaa
+Or ask in Discord: https://discord.gg/5A4WzEe9ks

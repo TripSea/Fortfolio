@@ -47,4 +47,4 @@ Stay informed at Fortfolio.io for ongoing insights.
 
 ## Join our Discord community
 
-Get real-time strategies and support. [Join Now](https://discord.gg/A7pZVkfmaa)
+Get real-time strategies and support. [Join Now](https://discord.gg/5A4WzEe9ks)
