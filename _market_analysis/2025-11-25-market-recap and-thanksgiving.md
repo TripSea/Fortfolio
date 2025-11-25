@@ -70,7 +70,7 @@ Historically, Thanksgiving week sees lighter volume and compressed trading hours
 
 ## Happy Thanksgiving!
 
-As we approach the holiday, we want to wish all our Fortfolio community members a happy and safe Thanksgiving. Take time to step away from the screens, enjoy time with loved ones, and reflect on what you're grateful for—including the lessons the market teaches us every day.
+As we approach the holiday, we want to wish all our Fortfolio community members a happy and safe Thanksgiving. Take time to step away from the screens, enjoy time with loved ones, and reflect on what you're grateful for, including the lessons the market teaches us every day.
 
 **Question for the Community:** With Black Friday approaching, are you more bullish or bearish on retail stocks heading into the holiday shopping season? What consumer trends are you watching, and how are you positioning for the critical Q4 earnings period?
 
