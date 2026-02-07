@@ -101,15 +101,15 @@ Below are example tickers tied to this week's themes. The live widget updates pr
 	<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
 	{
 		"symbols": [
-			["iShares Russell 2000 ETF", "IWM|1D"],
-			["Vanguard Russell 2000 ETF", "VTWO|1D"],
-			["Alphabet Inc", "GOOGL|1D"],
-			["Microsoft Corp", "MSFT|1D"],
-			["Amazon.com Inc", "AMZN|1D"],
-			["Energy Fuels Inc", "UUUU|1D"],
-			["MP Materials Corp", "MP|1D"],
-			["Exxon Mobil Corp", "XOM|1D"],
-			["Lockheed Martin Corp", "LMT|1D"]
+			["iShares Russell 2000 ETF", "IWM|1W"],
+			["Vanguard Russell 2000 ETF", "VTWO|1W"],
+			["Alphabet Inc", "GOOGL|1W"],
+			["Microsoft Corp", "MSFT|1W"],
+			["Amazon.com Inc", "AMZN|1W"],
+			["Energy Fuels Inc", "UUUU|1W"],
+			["MP Materials Corp", "MP|1W"],
+			["Exxon Mobil Corp", "XOM|1W"],
+			["Lockheed Martin Corp", "LMT|1W"]
 		],
 		"chartOnly": false,
 		"width": "100%",
