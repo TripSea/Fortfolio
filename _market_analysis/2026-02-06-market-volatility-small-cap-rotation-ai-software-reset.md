@@ -123,7 +123,6 @@ Below are example tickers tied to this week's themes. The live widget updates pr
 	</script>
 </div>
 
-If you want specific small cap company picks added here, send the tickers and I will plug them in.
 
 ---
 
