@@ -98,29 +98,39 @@ Below are example tickers tied to this week's themes. The live widget updates pr
 - **LMT**: Lockheed Martin, defense exposure tied to security spending.
 
 <div class="tradingview-widget-container" style="border: 2px solid #d4af37; padding: 8px; border-radius: 8px;">
-	<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
-	{
-		"symbols": [
-			["iShares Russell 2000 ETF", "IWM|1W"],
-			["Vanguard Russell 2000 ETF", "VTWO|1W"],
-			["Alphabet Inc", "GOOGL|1W"],
-			["Microsoft Corp", "MSFT|1W"],
-			["Amazon.com Inc", "AMZN|1W"],
-			["Energy Fuels Inc", "UUUU|1W"],
-			["MP Materials Corp", "MP|1W"],
-			["Exxon Mobil Corp", "XOM|1W"],
-			["Lockheed Martin Corp", "LMT|1W"]
-		],
-		"chartOnly": false,
-		"width": "100%",
-		"height": 520,
-		"locale": "en",
-		"colorTheme": "light",
-		"isTransparent": false,
-		"showVolume": false,
-		"noTimeScale": false
-	}
+	<div id="tradingview_advanced_chart" style="height: 520px;"></div>
+	<script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+	<script type="text/javascript">
+		new TradingView.widget({
+			"autosize": true,
+			"symbol": "IWM",
+			"interval": "1W",
+			"timezone": "Etc/UTC",
+			"theme": "light",
+			"style": "1",
+			"locale": "en",
+			"enable_publishing": false,
+			"hide_legend": false,
+			"withdateranges": true,
+			"allow_symbol_change": true,
+			"watchlist": [
+				"IWM",
+				"VTWO",
+				"GOOGL",
+				"MSFT",
+				"AMZN",
+				"UUUU",
+				"MP",
+				"XOM",
+				"LMT"
+			],
+			"container_id": "tradingview_advanced_chart"
+		});
 	</script>
+</div>
+
+<div style="font-size: 12px; color: #777; margin-top: 6px;">
+	Data and charts by TradingView.
 </div>
 
 
