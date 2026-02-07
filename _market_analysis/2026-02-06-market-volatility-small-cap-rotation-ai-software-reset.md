@@ -116,7 +116,7 @@ Below are example tickers tied to this week's themes. The live widget updates pr
 		"height": 520,
 		"locale": "en",
 		"colorTheme": "light",
-		"isTransparent": true,
+		"isTransparent": false,
 		"showVolume": false,
 		"noTimeScale": false
 	}
