@@ -154,4 +154,4 @@ Start small, track your results, and refine your approach over time.
 
 ---
 
-*Ready to screen for iron condor setups? Use our [Options Screener](/calendar/) to find high-probability candidates.*
+*Ready to screen for iron condor setups? Use our [Options Screener](/market-tools/) to find high-probability candidates.*
