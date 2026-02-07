@@ -97,19 +97,19 @@ Below are example tickers tied to this week's themes. The live widget updates pr
 - **XOM**: Exxon Mobil, energy exposure tied to geopolitical risk.
 - **LMT**: Lockheed Martin, defense exposure tied to security spending.
 
-<div class="tradingview-widget-container">
+<div class="tradingview-widget-container" style="border: 2px solid #d4af37; padding: 8px; border-radius: 8px;">
 	<script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
 	{
 		"symbols": [
-			["Small Caps", "IWM|1D"],
-			["Small Caps", "VTWO|1D"],
-			["AI Software", "GOOGL|1D"],
-			["AI Software", "MSFT|1D"],
-			["AI Software", "AMZN|1D"],
-			["Critical Minerals", "UUUU|1D"],
-			["Critical Minerals", "MP|1D"],
-			["Energy", "XOM|1D"],
-			["Defense", "LMT|1D"]
+			["iShares Russell 2000 ETF", "IWM|1D"],
+			["Vanguard Russell 2000 ETF", "VTWO|1D"],
+			["Alphabet Inc", "GOOGL|1D"],
+			["Microsoft Corp", "MSFT|1D"],
+			["Amazon.com Inc", "AMZN|1D"],
+			["Energy Fuels Inc", "UUUU|1D"],
+			["MP Materials Corp", "MP|1D"],
+			["Exxon Mobil Corp", "XOM|1D"],
+			["Lockheed Martin Corp", "LMT|1D"]
 		],
 		"chartOnly": false,
 		"width": "100%",
