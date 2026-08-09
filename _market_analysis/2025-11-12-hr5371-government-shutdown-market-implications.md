@@ -4,6 +4,7 @@ title: "H.R.5371: Ending the Government Shutdown and Its Market Implications"
 date: 2025-11-12
 category: market_analysis
 author: Fortfolio Team
+tags: [Policy, Government, Fiscal]
 excerpt: "H.R.5371 extends federal funding through January 30, 2026, ending the longest government shutdown on record. Learn how this resolution impacts market stability and investment strategies."
 ---
 

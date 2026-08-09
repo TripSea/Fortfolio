@@ -16,9 +16,10 @@ layout: default
     <div class="post-meta" style="justify-content:center;margin-top:1.5rem;">
       <span class="post-date">{{ page.date | date: "%B %d, %Y" }}</span>
       <span class="post-category">{{ page.category }}</span>
-      {% if page.read_time %}
-      <span class="post-read-time">{{ page.read_time }}</span>
-      {% endif %}
+      {% assign word_count = content | number_of_words %}
+      {% assign read_minutes = word_count | divided_by: 200 %}
+      {% if read_minutes < 1 %}{% assign read_minutes = 1 %}{% endif %}
+      <span class="post-read-time">{% if page.read_time %}{{ page.read_time }}{% else %}{{ read_minutes }} min read{% endif %}</span>
     </div>
   </div>
 </section>

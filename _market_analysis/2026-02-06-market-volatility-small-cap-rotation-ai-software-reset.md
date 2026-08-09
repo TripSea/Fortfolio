@@ -4,6 +4,7 @@ title: "Market Volatility, Small-Cap Rotation, and AI Software Reset"
 date: 2026-02-06
 category: market_analysis
 author: Fortfolio Team
+tags: [AI, Small-Cap, Volatility]
 excerpt: "Stocks chopped as volatility stayed elevated. Small caps tried to rotate higher, software names sold off on AI questions, and global headlines from Iran, the EU, and China kept risk appetite uneven."
 ---
 

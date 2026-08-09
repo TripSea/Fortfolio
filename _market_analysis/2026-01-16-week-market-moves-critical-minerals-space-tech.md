@@ -4,6 +4,7 @@ title: "Market Moves This Week: Critical Minerals, Nuclear Energy, and the Space
 date: 2026-01-16
 category: market_analysis
 author: Fortfolio Team
+tags: [UUUU, RKLB, RYCEY, SMR, TSLA, Nuclear, Critical-Minerals]
 excerpt: "White House proclamation on critical minerals, Jensen Huang's nuclear reactor comments fuel SMR demand, and RKLB surges on space expansion. This week reveals a tech-driven market reshaping geopolitical supply chains."
 ---
 

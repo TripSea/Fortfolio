@@ -20,11 +20,11 @@
         </a>
 
         <nav class="main-nav">
-          <a href="/" class="nav-link nav-pill">Home</a>
-          <a href="/about/" class="nav-link nav-pill">About</a>
+          <a href="/" class="nav-link nav-pill{% if page.url == '/' %} active{% endif %}">Home</a>
+          <a href="/about/" class="nav-link nav-pill{% if page.url contains '/about/' %} active{% endif %}">About</a>
           <a href="/blog/" class="nav-link nav-pill{% if page.url contains '/blog/' %} active{% endif %}">Blog</a>
-          <a href="/market-tools/" class="nav-link nav-pill">Market Tools</a>
-          <a href="/contact/" class="nav-link nav-pill">Contact</a>
+          <a href="/market-tools/" class="nav-link nav-pill{% if page.url contains '/market-tools/' %} active{% endif %}">Market Tools</a>
+          <a href="/contact/" class="nav-link nav-pill{% if page.url contains '/contact/' %} active{% endif %}">Contact</a>
         </nav>
       </div>
     </header>
@@ -70,7 +70,7 @@
           </a>
         </div>
       </div>
-      <div class="container footer-bottom">© 2025 Fortfolio. All rights reserved.</div>
+      <div class="container footer-bottom">© 2026 Fortfolio. All rights reserved.</div>
     </footer>
 
     <!-- Cookie Consent Banner -->

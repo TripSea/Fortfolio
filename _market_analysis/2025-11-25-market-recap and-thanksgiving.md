@@ -4,6 +4,7 @@ title: "Weekly Market Recap: Volatility Swings and Sector Rotation Heading into 
 date: 2025-11-25
 category: market_analysis
 author: Fortfolio Team
+tags: [Volatility, Sector-Rotation, Market-Recap]
 excerpt: "Wild volatility swings dominated markets last week as investors rotated into defensive sectors while tech giants experienced dramatic reversals. Here's what happened and what to watch heading into the holiday week."
 ---
 

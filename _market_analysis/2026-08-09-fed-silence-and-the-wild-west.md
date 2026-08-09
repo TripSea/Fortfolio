@@ -3,8 +3,7 @@ layout: post
 title: "Wild West Markets, the CPI Watch, and Where I'm Putting My Attention"
 date: 2026-08-09
 category: market_analysis
-author: Fortfolio Team
-excerpt: "With Kevin Warsh's Fed staying quiet on rates, markets are left to figure it out on their own. Here's what I'm watching this week. The CPI print, Rocket Lab earnings, and a few longer term positions I still like."
+author: Fortfolio Teamtags: [UUUU, RKLB, NVDA, Fed, CPI]excerpt: "With Kevin Warsh's Fed staying quiet on rates, markets are left to figure it out on their own. Here's what I'm watching this week. The CPI print, Rocket Lab earnings, and a few longer term positions I still like."
 ---
 
 With Kevin Warsh's Fed deliberately staying quiet on rates, the market has the feel of the Wild West. Without clear guidance from the top, traders and investors are left to navigate using the data itself. The next major signal arrives with the CPI report on August 12. That print will help clarify whether rate cuts remain on the table, whether further tightening is still possible, or, as I currently expect, whether policy simply stays put for now. Only one thing is certain: the path forward will be data dependent.

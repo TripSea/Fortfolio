@@ -4,6 +4,7 @@ title: "H.R.5371 Signed: Today's Market Reaction, Differences from Projections, 
 date: 2025-11-13
 category: market_analysis
 author: Fortfolio Team
+tags: [Policy, Government, Fiscal]
 excerpt: "H.R.5371 ended the 43-day government shutdown, but markets fell sharply. We compare actual results to projections and provide data-driven expectations for tomorrow and next week."
 ---
 
